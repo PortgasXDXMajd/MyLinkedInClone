@@ -1,12 +1,21 @@
+import {  BrowserRouter as Router,  Route,  Switch} from 'react-router-dom';
+import HomePage from './home-components/HomePage';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Let's build LinkedIn Clone</h1>
+    <Router>
+      <div className="app">
+        <Switch> 
 
-    </div>
+          <Route path="/">
+            <HomePage />
+          </Route>
+          
+        </Switch>
+      </div>
+    </Router>
   );
 }
-
 export default App;
