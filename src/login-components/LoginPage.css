@@ -1,0 +1,33 @@
+.joinButton {
+  width: 150px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.3);
+  margin-right: 16px;
+  background: transparent;
+  transition: all 0.3s;
+}
+
+.joinButton:hover {
+  color: rgba(0, 0, 0, 0.4);
+  background: lightgray;
+}
+
+.loginButton {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+  width: 150px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: 700;
+  border: 1px solid #0a66c6;
+  border-radius: 25px;
+  color: #0a66c6;
+  background: transparent;
+  transition: all 0.3s;
+}
+.loginButton:hover {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
