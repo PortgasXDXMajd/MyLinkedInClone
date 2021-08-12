@@ -62,11 +62,12 @@ const Layout = styled.div`
   grid-template-columns: minmax(0, 8fr) minmax(0, 12fr) minmax(300px, 7fr);
   column-gap: 25px;
   row-gap: 25px;
+  grid-template-rows: auto;
   margin: 25px 0;
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    padding: 0 5px;
+    padding: 2px 5px;
   }
 `;
 export default HomePage
