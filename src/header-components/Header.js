@@ -28,39 +28,39 @@ function Header() {
             </NavList>
 
             <NavList>
-                <a>
+                <a href="/home">
                     <img src="/images/nav-jobs.svg" alt="" />
                     <span>Jobs</span>
                 </a>
             </NavList>
 
             <NavList>
-                <a>
+                <a href="/home">
                     <img src="/images/nav-messaging.svg" alt="" />
                     <span>Messaging</span>
                 </a>
             </NavList>
 
             <NavList>
-                <a>
+                <a href="/home">
                     <img src="/images/nav-notifications.svg" alt="" />
                     <span>Notifications</span>
                 </a>
             </NavList>
             <User>
-                <a>
+                <a href="/home">
                     <img src="/images/user.svg" alt="" />
                     <span>Me</span>
                     <img src="/images/down-icon.svg" alt="" />
                 </a>
 
                 <SignOut>
-                    <a>Sign Out</a>
+                    <a href="/login">Sign Out</a>
                 </SignOut>
             </User>
 
             <Work>
-                <a>
+                <a href="/login">
                     <img src="/images/nav-work.svg" alt="" />
                     <span>
                     Work
