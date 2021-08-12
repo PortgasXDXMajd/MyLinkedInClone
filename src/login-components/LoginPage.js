@@ -162,4 +162,5 @@ const Google = styled.button`
     
 `;
 
+export {Container}
 export default LoginPage
